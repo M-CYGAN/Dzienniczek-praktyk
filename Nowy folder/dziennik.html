@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="nav.css" />
+    <script src="i.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <h1>Dziennik praktyki zawodowej</h1>
+      <nav>
+        <ul>
+          <li><a href="dziennik.html">Home</a></li>
+          <li><a href="Dziennik zajęć.html">Dziennik zajęć</a></li>
+          <li><a href="Podsumowanie.html">Podsumowanie</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <label for="name"
+          >Imię: <input type="text" id="name" 
+        /></label>
+        <label for="surname"
+          >Nazwisko: <input type="text" value="cygan"
+        /></label>
+        <label for="class">Klasa: <input type="text" /></label>
+        <label for="schoolyear">Rok szkolny: <input type="text" /></label>
+        <label for="firm">Odbytej w: <input type="text" /></label>
+        <fieldset>
+          <legend>Czas trwania praktyk</legend>
+          <label for="datefrom">Data rozpoczecia: <input type="date" /></label>
+          <label for="dateto">Data zakończenia: <input type="date" /></label>
+        </fieldset>
+        <button type="submit" id="btn">Zatwierdź</button>
+      </main>
+
+      <footer>
+        <hr />
+        <p>&copy;Michał Cygan</p>
+      </footer>
+    </div>
+  </body>
+</html>

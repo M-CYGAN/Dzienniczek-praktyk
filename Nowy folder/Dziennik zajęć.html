@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dziennik zajęć</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <h1>Dziennik praktyki zawodowej</h1>
+    <nav>
+        <ul>
+            <li><a href="dziennik.html">Home</a></li>
+            <li><a href="Dziennik zajęć.html">Dziennik zajęć</a></li>
+            <li><a href="Podsumowanie.html">Podsumowanie</a></li>
+        </ul>
+    </nav>
+    <h2>Realizacja materiału</h2>
+    <section>
+     <fieldset>
+         <legend>Informacje o zajęciach</legend>
+         <label for="date">Wybierz datę zajęć:             <input type="date"></label>
+        <label for="unit">Wybierz dział:  
+            <select type="text"></label>
+            <label for="topic">Wybierz temat: 
+            <select type="text"></label>
+     </fieldset>
+     <fieldset>
+         <legend>Opiekun</legend>
+         Jerzy Kot<input type="radio">
+         Maria Nowak<input type="radio">
+         Konstanty Kowal<input type="radio">
+     </fieldset>
+     <fieldset>
+         <legend>Realizacja materiału</legend>
+         Sprawozdanie:<input type="text">
+         Zrealizowano: <input type="checkbox">
+         Ile godzin: <input type="number">
+         Stopień opanowania materiału: 1<input type="range">6
+     </fieldset>
+     <button type="button">Wyczyść</button> 
+     <button type="button">Dodaj</button> 
+    </section>
+    <h2>Zrealizowane tematy</h2>
+    <footer>
+        <hr>
+        <p>&copy;Michał Cygan</p>
+    </footer>
+</body>
+</html>
